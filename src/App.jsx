@@ -15,7 +15,7 @@ import NotFound from "./Components/Helper/NotFound";
 const App = () => {
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename="/dogs-react-origamid">
         <UserStorage>
           <Header />
           <main className="AppBody">
