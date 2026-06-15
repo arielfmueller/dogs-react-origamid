@@ -31,7 +31,7 @@
   content: "";
   display: inline-block;
   margin-right: .25rem;
-  background: url('../../../src/Assets/visualizacao.svg') no-repeat center center;
+  background: url('../../../Assets/visualizacao.svg') no-repeat center center;
 }
 
 .photo:hover span {
