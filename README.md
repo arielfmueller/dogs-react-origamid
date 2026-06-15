@@ -1,16 +1,120 @@
-# React + Vite
+# 🐶 Dogs
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicação web desenvolvida durante o curso de React Completo da Origamid.
 
-Currently, two official plugins are available:
+O projeto simula uma rede social para compartilhamento de fotos de cães, permitindo autenticação de usuários, publicação de fotos, visualização de perfis e interação com o conteúdo através de uma interface moderna construída com React.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🔗 Demo
 
-## React Compiler
+Acesse o projeto online:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+https://arielfmueller.github.io/dogs-react-origamid/
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📸 Funcionalidades
+
+- Cadastro e login de usuários
+- Autenticação via API
+- Recuperação de senha
+- Publicação de fotos
+- Feed de imagens
+- Visualização de perfil de usuários
+- Página individual para cada foto
+- Proteção de rotas privadas
+- Estatísticas de publicações
+- Navegação com React Router
+
+---
+
+## 🚀 Tecnologias Utilizadas
+
+- React
+- Vite
+- React Router DOM
+- CSS Modules
+- Context API
+- JavaScript (ES6+)
+- Git e GitHub
+
+---
+
+## 📚 Conceitos Praticados
+
+Durante o desenvolvimento foram aplicados conceitos importantes do ecossistema React:
+
+- Componentização
+- Hooks (`useState`, `useEffect`, `useContext`, `useRef`)
+- Context API para gerenciamento de autenticação
+- Consumo de APIs REST
+- Rotas protegidas
+- Formulários controlados
+- CSS Modules
+- Deploy no GitHub Pages
+
+---
+
+## ⚙️ Executando Localmente
+
+Clone o repositório:
+
+```bash
+git clone https://github.com/arielfmueller/dogs-react-origamid.git
+```
+
+Acesse a pasta:
+
+```bash
+cd dogs-react-origamid
+```
+
+Instale as dependências:
+
+```bash
+pnpm install
+```
+
+Execute o projeto:
+
+```bash
+pnpm dev
+```
+
+A aplicação estará disponível em:
+
+```text
+http://localhost:5173
+```
+
+---
+
+## 📦 Build para Produção
+
+```bash
+pnpm build
+```
+
+Visualizar build local:
+
+```bash
+pnpm preview
+```
+
+---
+
+## 🌐 Deploy
+
+O projeto está hospedado através do GitHub Pages.
+
+```bash
+pnpm deploy
+```
+
+---
+
+## 👨‍💻 Autor
+
+Desenvolvido por Ariel Mueller como parte dos estudos de React e desenvolvimento Front-End.
+
+GitHub:
+https://github.com/arielfmueller
